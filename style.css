@@ -12,11 +12,11 @@ html {
     height: 100%;
 }
 
+
 body {
     font-family: 'Noto Sans JP', sans-serif;
     color: black;
     background: #bc0000 url("image/background.png") no-repeat center;
-    background-size: contain;
     user-select: none;
     margin: auto;
     height: 100%;
@@ -24,6 +24,18 @@ body {
     justify-content: center;
     display: flex;
     cursor: url("image/cursor.png"), default;
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body {
+        background-size: contain;
+    }
 }
 
 #content {
