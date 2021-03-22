@@ -41,12 +41,12 @@ body {
 #content {
     text-align: center;
     font-family: "YanSong", serif;
-    font-size: 4vmin;
+    font-size: 5vmin;
     color: #ffd700;
     padding-left: 12vmin;
     padding-right: 12vmin;
 }
 
 #su {
-    font-size: 12vmin;
+    font-size: 16vmin;
 }
