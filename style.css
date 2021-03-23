@@ -57,6 +57,7 @@ body {
 
 #year {
     font-size: 5vmin;
+    font-weight: normal;
     margin: 0;
     padding: 0;
 }
