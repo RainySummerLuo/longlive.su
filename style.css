@@ -11,7 +11,7 @@ html {
 
 
 body {
-    font-family: 'Noto Sans JP', sans-serif;
+    font-family: "YanSong", serif;
     color: black;
     background: #bc0000 url("image/background.png") no-repeat center;
     user-select: none;
@@ -37,10 +37,18 @@ body {
 
 #content {
     text-align: center;
-    font-family: "YanSong", serif;
     font-size: 5vmin;
     color: #ffd700;
     word-break: keep-all;
+}
+
+#heading {
+    margin: 0;
+    padding: 0;
+}
+
+#headline {
+    margin-bottom: 0;
 }
 
 #su {
@@ -49,5 +57,6 @@ body {
 
 #year {
     font-size: 5vmin;
-    word-break: keep-all;
+    margin: 0;
+    padding: 0;
 }
