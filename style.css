@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    cursor: url("image/cursor.png"), default;
+    cursor: url("image/cursor/cursor.cur"), default;
 }
 
 @media screen and (orientation: portrait) {
@@ -37,6 +37,7 @@ body {
 
 #content {
     text-align: center;
+    align-items: center;
     font-size: 5vmin;
     color: #ffd700;
     word-break: keep-all;
@@ -65,4 +66,19 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+#star:hover {
+    cursor: url("image/cursor/hand.cur"), pointer;
+}
+
+#progress-bar {
+    background-color: transparent;
+    height: 0.5vmin;
+}
+
+#progress {
+    background-color: #ffd700;
+    height: 0.5vmin;
+    width: 0;
 }
