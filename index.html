@@ -29,17 +29,34 @@
 </head>
 
 <body id="main" oncontextmenu="return false;">
+<script>
+    function audioplay() {
+        let audio = document.getElementById('audio');
+        audio.play();
+        audio.volume = 0.3;
+        audio.ontimeupdate = (event) => {
+            let progress = document.getElementById('progress');
+            const currentTime = audio.currentTime;
+            const duration = audio.duration;
+            progress.style.width = (currentTime +.25)/duration*100+'%';
+        };
+    }
+</script>
 <div id="content">
+    <audio id="audio" src="audio/CCCP.mp3"></audio>
     <h1 id="heading">
         <p id="headline">致敬那个&#8203;曾经存在的伟大国家</p>
-        <span id="su"><ruby>苏&ensp;联<rt>C&ensp;&ensp;C&ensp;&ensp;C&ensp;&ensp;P</rt></ruby></span>
+        <span id="su"><ruby>苏&ensp;联<rt>С&nbsp;&nbsp;С&nbsp;&nbsp;С&nbsp;&nbsp;Р</rt></ruby></span>
         <br/>
         <p id="year">
             1922年12月30日&nbsp;
-            <span id="star">&nbsp;&nbsp;&nbsp;</span>
+            <span id="star" onclick="audioplay()">&nbsp;&nbsp;&nbsp;</span>
             &nbsp;1991年12月26日
         </p>
     </h1>
+    <div id="progress-bar">
+        <div id="progress"></div>
+    </div>
 </div>
 </body>
 </html>
