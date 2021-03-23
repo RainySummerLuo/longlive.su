@@ -1,6 +1,6 @@
 # longlive.su
 
-[www.LongLive.SU](https://www.longlive.su) or [LongLive.SU](https://longlive.su)
+Site URL: **[www.LongLive.SU](https://www.longlive.su)** or **[LongLive.SU](https://longlive.su)**.
 
 ## Desktop (Landscape)
 
