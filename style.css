@@ -44,10 +44,12 @@ body {
 
 #headline {
     margin-bottom: 5vmin;
+    font-weight: normal;
 }
 
 #su {
     font-size: 16vmin;
+    font-weight: normal;
 }
 
 #su ruby rt {
