@@ -40,8 +40,7 @@ body {
     font-family: "YanSong", serif;
     font-size: 5vmin;
     color: #ffd700;
-    padding-left: 12vmin;
-    padding-right: 12vmin;
+    word-break: keep-all;
 }
 
 #su {
@@ -50,4 +49,5 @@ body {
 
 #year {
     font-size: 5vmin;
+    word-break: keep-all;
 }
