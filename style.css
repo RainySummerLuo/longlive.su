@@ -29,11 +29,29 @@ body {
     body {
         background-size: cover;
     }
+
+    #poem {
+        font-size: 9vmin;
+    }
+
+    #fof {
+        font-size: 20vmin;
+        line-height: 50vmin;
+    }
 }
 
 @media screen and (orientation: landscape) {
     body {
         background-size: contain;
+    }
+
+    #poem {
+        font-size: 6vmin;
+    }
+
+    #fof {
+        font-size: 14vmin;
+        line-height: 34vmin;
     }
 }
 
