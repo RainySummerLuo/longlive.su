@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    color: red;
+    color: #DD0000;
     font-family: sans-serif;
     user-select: none;
     margin: auto;
@@ -20,14 +20,13 @@ body {
 
 @media screen and (orientation: portrait) {
     #container img {
-        width: 50vmin;
+        width: 80vmin;
         margin-bottom: 2vmin;
     }
 
     #email {
-        font-size: 7vmin;
-        letter-spacing: 0.5vmin;
-        margin-bottom: 8vmin;
+        font-size: 8vmin;
+        margin-bottom: 15vmin;
         line-height: 18vmin;
     }
 }
@@ -41,8 +40,8 @@ body {
     #email {
         font-size: 4vmin;
         letter-spacing: 0.3vmin;
-        margin-top: 7vmin;
-        margin-bottom: 5vmin;
+        margin-top: 3vmin;
+        margin-bottom: 10vmin;
         line-height: 9vmin;
     }
 }
@@ -62,8 +61,4 @@ body {
 
 a:link, a:visited, a:hover, a:active {
     color: #D00;
-}
-
-i {
-    padding-right: 2vmin;
 }
