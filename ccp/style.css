@@ -1,5 +1,7 @@
-/* Originally create by Kiryu | https://www.kiryu.it | mail@nekomimi.it */
-/* Revised by RainySummer | https:/rainysummer.top | hi@rainysummer.top */
+@font-face {
+    font-family: "Heiti";
+    src: url("ht.woff") format("woff");
+}
 
 html {
     height: 100%;
@@ -7,8 +9,8 @@ html {
 }
 
 body {
-    color: #DD0000;
-    font-family: sans-serif;
+    color: #DF0012;
+    font-family: 'Heiti', sans-serif;
     user-select: none;
     margin: auto;
     height: 100%;
@@ -19,26 +21,36 @@ body {
 }
 
 @media screen and (orientation: portrait) {
-    #container img {
-        width: 80vmin;
+    #bainian {
+        width: 90vmin;
         margin-bottom: 2vmin;
     }
 
+    #danghui {
+        width: 5.5vw;
+        margin-right: 1vw;
+    }
+
     #email {
-        font-size: 8vmin;
+        font-size: 6.5vmin;
         margin-bottom: 15vmin;
         line-height: 18vmin;
     }
 }
 
 @media screen and (orientation: landscape) {
-    #container img {
-        width: 60vmin;
+    #bainian {
+        width: 30vw;
         margin-bottom: 2vmin;
     }
 
+    #danghui {
+        width: 1.4vw;
+        margin-right: 0.3vw;
+    }
+
     #email {
-        font-size: 4vmin;
+        font-size: 1.8vw;
         letter-spacing: 0.3vmin;
         margin-top: 3vmin;
         margin-bottom: 10vmin;
@@ -48,7 +60,7 @@ body {
 
 #email {
     text-align: center;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #at {
@@ -60,5 +72,6 @@ body {
 }
 
 a:link, a:visited, a:hover, a:active {
-    color: #D00;
+    color: #DF0012;
+    text-decoration: none;
 }
