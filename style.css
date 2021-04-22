@@ -38,6 +38,25 @@ body {
         font-size: 20vmin;
         line-height: 50vmin;
     }
+
+    #su {
+        margin-top: 6vh;
+        margin-bottom: 3vh;
+    }
+
+    #yearland {
+        display: none;
+    }
+
+    #yearport {
+        font-size: 7.6vw;
+        margin-top: 3vh;
+        margin-bottom: 6vh;
+    }
+
+    #progress {
+        height: 0.8vh;
+    }
 }
 
 @media screen and (orientation: landscape) {
@@ -53,6 +72,23 @@ body {
         font-size: 14vmin;
         line-height: 34vmin;
     }
+
+    #su {
+        margin-top: 4vh;
+        margin-bottom: 2vh;
+    }
+
+    #yearport {
+        display: none;
+    }
+
+    #yearland {
+        font-size: 5vmin;
+    }
+
+    #progress {
+        height: 0.8vh;
+    }
 }
 
 #content {
@@ -64,6 +100,7 @@ body {
 }
 
 #headline {
+    margin-top: -5vmin;
     margin-bottom: 5vmin;
 }
 
@@ -73,12 +110,6 @@ body {
 
 #su ruby rt {
     font-size: 6vmin;
-}
-
-#year {
-    font-size: 5vmin;
-    margin: 0;
-    padding: 0;
 }
 
 #star {
@@ -96,6 +127,5 @@ body {
 
 #progress {
     background-color: #ffd700;
-    height: 0.6vmin;
     width: 0;
 }
