@@ -6,7 +6,7 @@
 
 :link: **[www.LongLive.SU](https://www.longlive.su)** / **[LongLive.SU](https://longlive.su)**
 
-:e-mail: **[CPSU@LongLive.SU](mailto:cpsu@longlive.su)**
+:e-mail: ~~**[CPSU@LongLive.SU](mailto:cpsu@longlive.su)**~~
 
 点击**⭐五角星⭐**播放**苏维埃社会主义共和国联盟国歌**。Click the **⭐Star⭐** to play **the State Anthem of the Soviet Union**.
 
