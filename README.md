@@ -1,7 +1,5 @@
 # longlive.su
 
-![GitHub deployments](https://img.shields.io/github/deployments/rainysummerluo/LongLive.SU/github-pages?label=github-pages&style=for-the-badge)
-
 ![Website](https://img.shields.io/website?label=longlive.su&style=for-the-badge&url=https%3A%2F%2Fwww.longlive.su)&nbsp;&nbsp;![Uptime Robot status](https://img.shields.io/uptimerobot/status/m787624797-721fd92982a9ea112a145d82?style=for-the-badge)&nbsp;&nbsp;![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m787624797-721fd92982a9ea112a145d82?style=for-the-badge)
 
 :link: **[www.LongLive.SU](https://www.longlive.su)** / **[LongLive.SU](https://longlive.su)**
